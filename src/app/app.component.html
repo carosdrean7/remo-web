@@ -1,20 +1,166 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+<header class="top-area" id="home">
+  <div class="header-top-area" id="scroolup">
+    <!--MAINMENU AREA-->
+    <div class="mainmenu-area" id="mainmenu-area">
+      <div class="mainmenu-area-bg"></div>
+      <nav class="navbar">
+        <div class="container">
+          <div class="navbar-header">
+            <a href="#home" class="navbar-brand"><img src="assets/img/logo.png" alt="logo"></a>
+          </div>
+          <div id="main-nav" class="stellarnav">
+            <ul id="nav" class="nav navbar-nav pull-right">
+              <li class="active"><a href="#home">Home</a></li>
+              <li><a href="#features">Features</a></li>
+              <li><a href="#courses">Courses</a></li>
+              <li><a href="#testmonial">Testmonial</a></li>
+              <li><a href="#blog">Blog</a></li>
+              <li><a href="#faqs">Faqs</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!--END MAINMENU AREA END-->
+  </div>
 
+  <!--WELCOME SLIDER AREA-->
+  <div class="welcome-slider-area white font16">
+    <div class="welcome-single-slide">
+      <div class="slide-bg-one slide-bg-overlay"></div>
+      <div class="welcome-area">
+        <div class="container">
+          <div class="row flex-v-center">
+            <div class="col-md-8 col-lg-7 col-sm-12 col-xs-12">
+              <div class="welcome-text">
+                <h1>Develop a passion for learning new things.</h1>
+                <p>Was certainty remaining engrossed applauded sir how discovery. Settled opinion how enjoyed greater
+                  joy adapted too shy. Now properly surprise expenses.</p>
+                <div class="home-button">
+                  <form action="#">
+                    <input type="search" name="search" id="search" placeholder="Search Courses">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="welcome-single-slide">
+      <div class="slide-bg-two slide-bg-overlay"></div>
+      <div class="welcome-area">
+        <div class="container">
+          <div class="row flex-v-center">
+            <div class="col-md-8 col-lg-7 col-sm-12 col-xs-12">
+              <div class="welcome-text">
+                <h1>Develop a passion for learning new things.</h1>
+                <p>Was certainty remaining engrossed applauded sir how discovery. Settled opinion how enjoyed greater
+                  joy adapted too shy. Now properly surprise expenses.</p>
+                <div class="home-button">
+                  <form action="#">
+                    <input type="search" name="search" id="search" placeholder="Search Courses">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="welcome-single-slide">
+      <div class="slide-bg-three slide-bg-overlay"></div>
+      <div class="welcome-area">
+        <div class="container">
+          <div class="row flex-v-center">
+            <div class="col-md-8 col-lg-7 col-sm-12 col-xs-12">
+              <div class="welcome-text">
+                <h1>Develop a passion for learning new things.</h1>
+                <p>Was certainty remaining engrossed applauded sir how discovery. Settled opinion how enjoyed greater
+                  joy adapted too shy. Now properly surprise expenses.</p>
+                <div class="home-button">
+                  <form action="#">
+                    <input type="search" name="search" id="search" placeholder="Search Courses">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--WELCOME SLIDER AREA END-->
+</header>
+
+<router-outlet></router-outlet>
+
+<footer class="footer-area sky-gray-bg relative">
+  <div class="footer-top-area padding-80-80 bg-dark">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5 col-lg-5 col-sm-12 col-xs-12">
+          <div class="single-footer footer-about sm-mb50 xs-mb50 sm-center xs-center">
+            <div class="footer-logo mb30">
+              <a href="#"><img src="assets/img/logo.png" alt=""></a>
+            </div>
+            <p>Saudi Arabia has been accused of using anti-terror laws to suppress free expression and failing to carry
+              out independent inquiries into its Yemen.</p>
+          </div>
+        </div>
+        <div class="col-md-2 col-lg-2 col-sm-4 col-xs-12">
+          <div class="single-footer footer-list white xs-center xs-mb50">
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Service</a></li>
+              <li><a href="#">Team</a></li>
+              <li><a href="#">Privicy Policy</a></li>
+              <li><a href="#">Testmonial</a></li>
+              <li><a href="#">Support</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-5 col-lg-5 col-sm-8 col-xs-12">
+          <div class="single-footer footer-subscribe white xs-center">
+            <h3 class="mb30 xs-font18">Subscribe Our Newsletter</h3>
+            <p>Doubtful for answered one fat indulged margaret sir shutters together. Ladies so in wholly .</p>
+            <div class="subscriber-form-area mt50 wow fadeIn">
+              <!--<form action="#" class="subscriber-form mb100">
+                              <input type="email" name="email" id="email" placeholder="Email Address">
+                              <button type="submit">Subscribe</button>
+                          </form>-->
+              <form id="mc-form" class="subscriber-form">
+                <label class="mt10" for="mc-email"></label>
+                <input type="email" id="mc-email" placeholder="email@example.com">
+                <button type="submit" class="plus-btn"><i class="fa fa-paper-plane-o"></i></button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom-area white">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+          <div class="footer-copyright text-center wow fadeIn">
+            <p>
+              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+              Copyright &copy;<script>
+                document.write(new Date().getFullYear());
+
+              </script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i>
+              by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
